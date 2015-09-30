@@ -15,6 +15,10 @@
 		D68535D21BBB692F007CFD48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68535D01BBB692F007CFD48 /* LaunchScreen.storyboard */; };
 		D68535DD1BBB6930007CFD48 /* BluetoothTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68535DC1BBB6930007CFD48 /* BluetoothTestTests.swift */; };
 		D68535E81BBB6930007CFD48 /* BluetoothTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68535E71BBB6930007CFD48 /* BluetoothTestUITests.swift */; };
+		D68535F61BBB69EC007CFD48 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68535F51BBB69EC007CFD48 /* CoreBluetooth.framework */; };
+		D68535FA1BBBAE15007CFD48 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68535F91BBBAE15007CFD48 /* SecondViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D68535FC1BBBC253007CFD48 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68535FB1BBBC253007CFD48 /* ThirdViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D68535FE1BBBC69B007CFD48 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68535FD1BBBC69B007CFD48 /* AppViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		D68535E31BBB6930007CFD48 /* BluetoothTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68535E71BBB6930007CFD48 /* BluetoothTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothTestUITests.swift; sourceTree = "<group>"; };
 		D68535E91BBB6930007CFD48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68535F51BBB69EC007CFD48 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		D68535F91BBBAE15007CFD48 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D68535FB1BBBC253007CFD48 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		D68535FD1BBBC69B007CFD48 /* AppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68535F61BBB69EC007CFD48 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +88,7 @@
 		D68535B81BBB692F007CFD48 = {
 			isa = PBXGroup;
 			children = (
+				D68535F51BBB69EC007CFD48 /* CoreBluetooth.framework */,
 				D68535C31BBB692F007CFD48 /* BluetoothTest */,
 				D68535DB1BBB6930007CFD48 /* BluetoothTestTests */,
 				D68535E61BBB6930007CFD48 /* BluetoothTestUITests */,
@@ -101,6 +111,9 @@
 			children = (
 				D68535C41BBB692F007CFD48 /* AppDelegate.swift */,
 				D68535C61BBB692F007CFD48 /* ViewController.swift */,
+				D68535F91BBBAE15007CFD48 /* SecondViewController.swift */,
+				D68535FB1BBBC253007CFD48 /* ThirdViewController.swift */,
+				D68535FD1BBBC69B007CFD48 /* AppViewController.swift */,
 				D68535C81BBB692F007CFD48 /* Main.storyboard */,
 				D68535CE1BBB692F007CFD48 /* Assets.xcassets */,
 				D68535D01BBB692F007CFD48 /* LaunchScreen.storyboard */,
@@ -258,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68535FE1BBBC69B007CFD48 /* AppViewController.swift in Sources */,
+				D68535FA1BBBAE15007CFD48 /* SecondViewController.swift in Sources */,
 				D68535C71BBB692F007CFD48 /* ViewController.swift in Sources */,
+				D68535FC1BBBC253007CFD48 /* ThirdViewController.swift in Sources */,
 				D68535C51BBB692F007CFD48 /* AppDelegate.swift in Sources */,
 				D68535CD1BBB692F007CFD48 /* BluetoothTest.xcdatamodeld in Sources */,
 			);
